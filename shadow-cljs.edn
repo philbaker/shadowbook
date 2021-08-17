@@ -1,0 +1,12 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[reagent "1.0.0"]]
+
+ :builds
+ {:stories {:target :npm-module
+            :entries [stories.core]
+            :output-dir "out"
+            :devtools {:enabled false}}}}

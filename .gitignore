@@ -4,3 +4,4 @@
 /storybook-static/
 .lsp
 .nrepl.edn
+public/app.css

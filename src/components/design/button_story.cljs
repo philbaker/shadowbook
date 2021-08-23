@@ -12,4 +12,4 @@
 
 (defn ^:export LoggedIn
   []
-  (r/as-element [header "You are logged in to the site!"]))
+  (r/as-element [header "You are logged in?"]))

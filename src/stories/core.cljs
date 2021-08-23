@@ -1,3 +1,3 @@
 (ns stories.core
-  (:require [corp.design.button-story]
+  (:require [components.design.button-story]
             [reagent.dom :refer [render]]))

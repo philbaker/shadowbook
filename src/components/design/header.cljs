@@ -1,4 +1,4 @@
-(ns corp.design.header)
+(ns components.design.header)
 
 (defn header [text]
   [:header text])

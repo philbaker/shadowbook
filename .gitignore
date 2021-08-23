@@ -3,3 +3,4 @@
 /out/
 /storybook-static/
 .lsp
+.nrepl.edn

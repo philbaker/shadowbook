@@ -1,4 +1,4 @@
-(ns components.design.button-story
+(ns components.design.header-story
   (:require
     ["@storybook/addon-actions" :refer (action)]
     [components.design.lib :refer ($)]
@@ -12,4 +12,4 @@
 
 (defn ^:export LoggedIn
   []
-  (r/as-element [header "You are logged in?"]))
+  (r/as-element [header "You are now logged in!"]))
